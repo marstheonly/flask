@@ -1,6 +1,6 @@
 from flask import Flask, json, jsonify
 
-names = [{'id': 0, 'name': 'Mario', 'city': 'Toronto'}, {'id': 1, 'name': 'Sorin', 'city': 'Tel Aviv'}]
+names = [{'id': 0, 'name': 'Marius', 'city': 'Toronto'}, {'id': 1, 'name': 'Sorin', 'city': 'Tel Aviv'}]
 
 
 api = Flask(__name__)
