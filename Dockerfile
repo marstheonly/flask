@@ -12,6 +12,7 @@ RUN pip --no-cache-dir install requests flask-restful
 EXPOSE 4999
 
 #and this comment on line whatever
+########## ONE EXTRA COMMENT ###############
 
 ENTRYPOINT ["python3"]
 CMD ["myserver.py"]
